@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Shape</title>
+</head>
+<body>
+    <h1>Generated Shape Data</h1>
+    <pre>
+        <!-- Include the generated shape data from shape.txt -->
+        <!-- Use a script to load the content from shape.txt -->
+        <script>
+            fetch('shape.txt')
+                .then(response => response.text())
+                .then(data => {
+                    document.write(data);
+                });
+        </script>
+    </pre>
+
+    <h2>Generated Shape SVG</h2>
+    <!-- Include the generated SVG from shape.svg -->
+    <img src="./shape.svg" alt="Generated Shape">
+
+    <!-- Optionally style the SVG for better presentation -->
+    <style>
+        svg {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</body>
+</html>
