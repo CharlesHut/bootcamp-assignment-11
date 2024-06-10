@@ -1,0 +1,8 @@
+Text: dot
+Text Color: blue
+Shape: Triangle
+Shape Color: red
+<svg width="10020" height="106.60254037844386" xmlns="http://www.w3.org/2000/svg">
+                             <polygon points="50,10 10010,96.60254037844386 10,96.60254037844386" fill="red" />
+                              <text x="40" y="50" fill="blue">dot</text>
+                          </svg>
